@@ -9,7 +9,7 @@ provider "vault" {
   # address = "https://vault.example.net:8200"
 }
 resource "vault_auth_backend" "example" {
-  type = "github"
+  type = "test"
   path = "arslan/gitauth"
 
 }
